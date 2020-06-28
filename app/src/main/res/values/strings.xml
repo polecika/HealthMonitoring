@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Мониторинг здоровья</string>
+    <string name="mainText">Комплексная система мониторинга здоровья</string>
+    <string name="author">Автор: Швец Полина</string>
+    <string name="inputNameText">Введите ФИО</string>
+    <string name="inputAgeText">Введите возраст</string>
+    <string name="inputName">ФИО</string>
+    <string name="inputAge">Возраст</string>
+    <string name="buttonSave">Сохранить</string>
+    <string name="buttonGoToPressureActivity">Давление</string>
+    <string name="buttonGoToHealthActivity">Показатели здоровья</string>
+</resources>
