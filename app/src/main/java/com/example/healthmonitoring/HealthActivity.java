@@ -36,6 +36,7 @@ public class HealthActivity extends AppCompatActivity {
         buttonSaveHealth.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Log.i(TAG, "Нажата кнопка [Сохранить]");
                 try {
                     if(editWeight.getText().toString().equals("") || editStepsCount.getText().toString().equals("")){
                         toastError.show();

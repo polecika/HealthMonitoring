@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
         buttonUserSave.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Log.i(TAG, "Нажата кнопка [Сохранить]");
                 try {
                     String personName = editPersonName.getText().toString();
                     if(editPersonAge.getText().toString().equals("")) {
@@ -63,6 +64,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
+                Log.i(TAG, "Нажата кнопка [Показатели здоровья]");
                 Intent intentHealth= new Intent(MainActivity.this, HealthActivity.class);
                 intentHealth.putExtra("user", (User) user);
                 startActivity(intentHealth);
@@ -72,6 +74,7 @@ public class MainActivity extends AppCompatActivity {
         buttonGoToPressureActivity.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Log.i(TAG, "Нажата кнопка [Давление]");
                 Intent intentPressure = new Intent(MainActivity.this, PressureActivity.class);
                 intentPressure.putExtra("user", (User) user);
                 startActivity(intentPressure);

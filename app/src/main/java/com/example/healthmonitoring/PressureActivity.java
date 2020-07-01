@@ -37,9 +37,9 @@ public class PressureActivity extends AppCompatActivity {
 
         Button buttonPressureSave = (Button) findViewById(R.id.buttonPressureSave);
         buttonPressureSave.setOnClickListener(new View.OnClickListener() {
-
             @Override
             public void onClick(View v) {
+                Log.i(TAG, "Нажата кнопка [Сохранить]");
                 try {
                     if(
                             editTopPressure.getText().toString().equals("") ||
