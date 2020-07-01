@@ -9,4 +9,12 @@
     <string name="buttonSave">Сохранить</string>
     <string name="buttonGoToPressureActivity">Давление</string>
     <string name="buttonGoToHealthActivity">Показатели здоровья</string>
+    <string name="editTopPressure">Верхнее давление</string>
+    <string name="editLowerPressure">Нижнее давление</string>
+    <string name="editPulse">Пульс</string>
+    <string name="checkboxTachycardia">Тахикардия</string>
+    <string name="editMeasurementDate">Дата замера</string>
+    <string name="editWeight">Вес</string>
+    <string name="editStepsCount">Количество шагов</string>
+
 </resources>
